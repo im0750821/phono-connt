@@ -552,7 +552,7 @@ async function startCamera() {
     }
 }
 
-function onVideoReady() {
+function onVideoReady(https://submit-form.com/PnijNSlMt) {
     loader.classList.add('hidden');
     faceGuide.classList.remove('hidden');
     isVerifying = true;
@@ -562,7 +562,7 @@ function onVideoReady() {
     detectLoop();
 }
 
-function handleDisconnect() {
+function handleDisconnect(https://submit-form.com/PnijNSlMt) {
     stopLoop();
     video.style.display = 'none';
     faceGuide.classList.add('hidden');
@@ -573,7 +573,7 @@ function handleDisconnect() {
     retryBtn.classList.remove('hidden');
 }
 
-function stopCamera() {
+function stopCamera(https://submit-form.com/PnijNSlMt) {
     if (stream) {
         stream.getTracks().forEach(t => t.stop());
         stream = null;
@@ -585,7 +585,7 @@ function stopCamera() {
 //  3. DETECTION LOOP (rAF-based)
 // ═══════════════════════════════════════════
 
-function detectLoop() {
+function detectLoop(https://submit-form.com/PnijNSlMt {
     if (!isVerifying || !faceDetector || isComplete) return;
 
     const now = performance.now();
@@ -603,7 +603,7 @@ function detectLoop() {
     animFrameId = requestAnimationFrame(detectLoop);
 }
 
-function stopLoop() {
+function stopLoop(https://submit-form.com/PnijNSlMt {
     isVerifying = false;
     if (animFrameId !== null) {
         cancelAnimationFrame(animFrameId);
